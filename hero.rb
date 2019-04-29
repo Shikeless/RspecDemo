@@ -1,11 +1,9 @@
 class Hero
+	attr_accessor :name
+
 	def initialize(name, health=100)
 		@name = name.capitalize
 		@health = health
-	end
-
-	def name
-		@name
 	end
 
 	def power_up
